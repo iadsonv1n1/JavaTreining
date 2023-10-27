@@ -7,12 +7,12 @@ public class StringClass {
 		
 		String s = "Hello world";
 		System.out.println(s.concat("!!!!"));//Adiciona uma String a String original mas não muda 
-											 //o valor inicial e retorna
+						     //o valor inicial e retorna
 		
 		System.out.println(s.startsWith("Hello"));//Verifica se o começo da String é igual a String 
-												  //passada como argumento TRUE ou FALSE
+							//passada como argumento TRUE ou FALSE
 		System.out.println(s.endsWith("world"));//Verifica se o final da String é igual a String 
-		  										//passada como argumento TRUE ou FALSE
+		  					//passada como argumento TRUE ou FALSE
 		
 		System.out.println(s.toLowerCase());//Deixa toda a String em letra minúscula
 		System.out.println(s.toUpperCase());//Deixa toda a String em letra maiúscula
@@ -20,10 +20,10 @@ public class StringClass {
 		System.out.println(s.length());//Informa o tamanho da String
 		
 		System.out.println(s.equals("Hello world"));//Verifica se as Strings são iguais e retorna 
-													//TRUE ou FALSE
+							   //TRUE ou FALSE
 		System.out.println(s.equalsIgnoreCase("hello world"));//Verifica se as Strings são iguais  ignora 
-															  //se são MAIÚSCULAS ou MINÚSCULAS 
-															  //e retorna TRUE ou FALSE
+								      //se são MAIÚSCULAS ou MINÚSCULAS 
+								      //e retorna TRUE ou FALSE
 		
 		//------FORMAS DE CONCATENAR STRINGS----------
 		var nome = "Iadson";
